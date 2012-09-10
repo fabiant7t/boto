@@ -29,7 +29,7 @@ import os.path
 
 class Vault(object):
 
-    DefaultPartSize = 4 * 1024 * 1024  # 128MB
+    DefaultPartSize = 4 * 1024 * 1024  # 4MB
 
     ResponseDataElements = (('VaultName', 'name', None),
                             ('VaultARN', 'arn', None),
